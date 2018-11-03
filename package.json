@@ -1,0 +1,28 @@
+{
+  "name": "mssql-async",
+  "version": "0.0.1",
+  "description": "\tAn async (promise) based Microsoft SQL Server client (built on tedious) for Node.JS ",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giridharangm/mssql-async.git"
+  },
+  "keywords": [
+    "tedious",
+    "mssql",
+    "mssql-async"
+  ],
+  "author": "Giridharan GM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giridharangm/mssql-async/issues"
+  },
+  "homepage": "https://github.com/giridharangm/mssql-async#readme",
+  "dependencies": {
+    "generic-pool": "^3.4.2",
+    "tedious": "^3.0.1"
+  }
+}
